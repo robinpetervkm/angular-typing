@@ -8,5 +8,5 @@ import { lorem } from 'faker';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'typing';
+  randomText = lorem.sentence();
 }
